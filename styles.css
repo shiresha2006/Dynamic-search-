@@ -1,0 +1,46 @@
+/* External CSS for styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdNfcE8ooKvQ0d_71lwhhZzQbc1RsbGl6vCg&s'); /* Replace 'background.jpg' with your image file */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+}
+input[type="text"] {
+  width: calc(100% - 70px);
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff; /* Blue color for buttons */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 5px; /* Space between each button */
+}
+button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+#searchResults {
+  margin-top: 20px;
+  color: #333;
+}
